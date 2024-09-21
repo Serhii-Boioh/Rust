@@ -1,0 +1,161 @@
+.body{
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: -11px;
+}
+
+.Rectangle1{
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: -8px;
+top: -8px;
+background: url(C:/Users/Ronald/Desktop/Project/img/fonrust.jpg);
+}
+
+.Rectangle3{
+position: absolute;
+width: 1924px;
+height: 1090px;
+background: #050D22;
+left: -12px;
+top: 1072Px;
+}
+
+.account{
+box-sizing: border-box;
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1710px;
+top: 120px;
+border: 3px solid #214848;
+border-radius: 50px;
+background-image: url(C:/Users/Ronald/Desktop/Project/img/file.png);
+cursor: pointer;
+}
+
+.image-box {
+width: 50px;
+height: 50px;
+left: 1710px;
+top: 120px;
+background-image: url('margue-inside.png');
+background-size: cover;
+background-position: center;
+}
+
+.header .logo{
+background-color: #cd412b;
+position: absolute;
+width: 68px;
+height: 68px;
+left: 160px;
+top: 110px;
+cursor: pointer;
+margin-bottom: 1rem;
+}
+
+.Rectangle7{
+box-sizing: border-box;
+position: absolute;
+width: 259px;
+height: 106px;
+left: 831px;
+top: 137px;
+background: #2E334F;
+border: 4px solid #262626;
+}
+
+.Rectangle10{
+box-sizing: border-box;
+position: absolute;
+width: 268px;
+height: 106px;
+left: 1087px;
+top: 137px;
+background: linear-gradient(180deg, #2E334F 0%, #3C51C1 100%);
+border: 4px solid #262626;
+border-radius: 0px 53px 53px 0px;
+}
+
+.Rectangle11{
+box-sizing: border-box;
+position: absolute;
+width: 290.47px;
+height: 106px;
+left: 550px;
+top: 137px;
+background: #2E334F;
+border: 4px solid #262626;
+transform: rotate(179.76deg);
+border-radius: 0px 53px 53px 0px;
+}
+
+.fotocenter{
+position: absolute;
+width: 10px;
+height: 645px;
+left: 567px;
+top: 294px;
+background: url(img/td_33-website-header-3.png);
+}
+
+.twitchdrops{
+position: absolute;
+width: 234px;
+height: 30px;
+left: 574px;
+top: 175px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 22px;
+align-items: center;
+letter-spacing: 0.25em;
+cursor: pointer;
+color: whitesmoke;
+border: 0px;
+background: #2E334F;
+font-variation-settings: 'slnt' 0;
+}
+
+.donate{
+position: absolute;
+width: 268px;
+height: 106px;
+left: 1087px;
+top: 137px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 38px;
+align-items: center;
+letter-spacing: 0.30em;
+border: 4px solid #262626;
+border-radius: 0px 53px 53px 0px;
+font-variation-settings: 'slnt' 0;
+background: linear-gradient(180deg, #2E334F 0%, #3C51C1 100%);
+cursor: pointer;
+color: whitesmoke
+}
+
+.connectaccount{
+position: absolute;
+width: 224px;
+height: 52px;
+left: 849px;
+top: 166px;
+font-family: 'Inter';
+font-style: italic;
+font-weight: 446;
+font-size: 20px;
+align-items: center;
+letter-spacing: 0.20em;
+cursor: pointer;
+border: 0px solid #262626;
+color: whitesmoke;
+background: #2E334F;
+}
