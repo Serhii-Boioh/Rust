@@ -51,7 +51,7 @@ background-color: rgba(95, 158, 160, 0);
 width: 33px;
 height: 33px;
 left: 1710px;
-top: 120px;;
+top: 47px;
 position: relative;
 }
 
@@ -96,18 +96,6 @@ background: #2E334F;
 border: 4px solid #262626;
 }
 
-.Rectangle10{
-box-sizing: border-box;
-position: absolute;
-width: 268px;
-height: 106px;
-left: 1087px;
-top: 137px;
-background: linear-gradient(180deg, #2E334F 0%, #3C51C1 100%);
-border: 4px solid #262626;
-border-radius: 0px 53px 53px 0px;
-}
-
 .Rectangle11{
 box-sizing: border-box;
 position: absolute;
@@ -121,13 +109,12 @@ transform: rotate(179.76deg);
 border-radius: 0px 53px 53px 0px;
 }
 
-.fotocenter{
+.cerfochechka{
 position: absolute;
-width: 10px;
-height: 645px;
-left: 567px;
-top: 294px;
-background: url('img/td_33-website-header-3.png');
+width: 1030px;
+height: 675px;
+left: 440px;
+top: 250px;
 }
 
 .twitchdrops{
@@ -173,11 +160,6 @@ cursor: pointer;
 color: whitesmoke
 }
 
-.header .donate:hover{
-background-color: #cd412b;
-}
-
-
 .connectaccount{
 position: absolute;
 width: 224px;
@@ -194,4 +176,22 @@ cursor: pointer;
 border: 0px solid #262626;
 color: whitesmoke;
 background: #2E334F;
+}
+
+.footerinfo{
+position: absolute;
+width: 224px;
+height: 52px;
+left: 2500px;
+top: 100px;
+
+}
+
+.f1{
+position: absolute;
+width: 224px;
+height: 52px;
+left: 2500px;
+top: 100px;
+
 }
