@@ -237,3 +237,73 @@ body {
     position: absolute;
     left: 365px;
 }
+
+
+.countdown-wrapper {
+	z-index: 1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 60px;
+    position: absolute;
+    top: 870px;
+    left: 800px;
+    color:#fff;
+}
+
+.countdown {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.time {
+    position: relative;
+    top: 1000px;
+    left: -50px;
+    color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+}
+
+.time h2 {
+	margin: 0 0 10px;
+	font-size: 48px;
+}
+
+.time small {
+	font-size: 26px;
+}
+
+@media (max-width: 500px) {
+	.title {
+		font-size: 35px;
+	}
+
+	.year {
+		display: none;
+	}
+
+	.countdown {
+		align-items: center;
+	}
+
+	.time {
+		margin: 10px;
+	}
+
+	.time h2 {
+		font-size: 32px;
+		margin: 0;
+	}
+
+	.time small {
+		font-size: 16px;
+	}
+}
