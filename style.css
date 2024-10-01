@@ -1,6 +1,6 @@
 body {
     width: 1920px;
-    height: 1080px;
+    height: 4000px;
     left: 0px;
     top: -11px;
 }
@@ -18,19 +18,19 @@ body {
 .bodyinfo {
     position: absolute;
     width: 1924px;
-    height: 1090px;
+    height: 4000px;
     background: #050D22;
     left: -12px;
-    top: 1500Px;
+    top: 1350Px;
 }
 
 .foter {
     position: absolute;
     width: 1924px;
-    height: 1090px;
+    height: 4000px;
     background: #000000;
     left: -12px;
-    top: 2000Px;
+    top: 4000Px;
 }
 
 .account {
@@ -306,4 +306,63 @@ body {
 	.time small {
 		font-size: 16px;
 	}
+}
+
+.textski0{
+    position: relative;
+    top: 1100px;
+    left: 780px;
+    color: #fff;
+    font-size: 2.75rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.textski1{
+    position: relative;
+    top: 1100px;
+    left: 620px;
+    color: #ababab;
+
+}
+
+.textski2{
+    position: relative;
+    top: 1150px;
+    left: 120px;
+    background-color: #9146ff;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 5px 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.dropbox{
+    position: relative;
+    top: 1150px;
+    left: 120px;
+    flex: 0 0 calc(50% - 30px);
+    display: flex;
+    flex-direction: column;
+    opacity: .7;
+    transform: scale(1);
+    transition: all .2s ease;
+    margin: 15px;
+}
+
+.dropbox2{
+    position: relative;
+    top: 1150px;
+    left: 1200px;
+    flex: 0 0 calc(50% - 30px);
+    display: flex;
+    flex-direction: column;
+    opacity: .7;
+    transform: scale(1);
+    transition: all .2s ease;
 }
