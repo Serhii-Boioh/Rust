@@ -1,15 +1,14 @@
-.body {
-    position: absolute;
+body {
     width: 1920px;
     height: 1080px;
     left: 0px;
     top: -11px;
 }
 
-.Rectangle1 {
+.fon {
     position: absolute;
     width: 1920px;
-    height: 1080px;
+    height: 1920px;
     left: -8px;
     top: -8px;
     background: url(img/fonrust.jpg);
@@ -22,7 +21,7 @@
     height: 1090px;
     background: #050D22;
     left: -12px;
-    top: 1072Px;
+    top: 1500Px;
 }
 
 .foter {
@@ -50,23 +49,13 @@
 .accountlogo {
     width: 33px;
     height: 33px;
-    left: 1710px;
-    top: 120px;
+    left: 1709px;
+    top: 48px;
     position: relative;
+
 }
 
-
-.header .logo {
-    width: 50px;
-    height: 50px;
-    left: 1710px;
-    top: 120px;
-    background-image: url('margue-inside.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.header .logo {
+.logo {
     background-color: #cd412b;
     position: absolute;
     width: 68px;
@@ -74,7 +63,15 @@
     left: 160px;
     top: 110px;
     cursor: pointer;
+    background-image: url('margue-inside.png');
+    background-size: cover;
+    background-position: center;
     margin-bottom: 1rem;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .rustlogo {
@@ -85,97 +82,82 @@
     position: relative;
 }
 
-.Rectangle7 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 259px;
-    height: 106px;
-    left: 831px;
-    top: 137px;
-    background: #2E334F;
-    border: 4px solid #262626;
-}
-
-.Rectangle11 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 290.47px;
-    height: 106px;
-    left: 550px;
-    top: 137px;
-    background: #2E334F;
-    border: 4px solid #262626;
-    transform: rotate(179.76deg);
-    border-radius: 0px 53px 53px 0px;
-}
-
 .cerfochechka {
     position: absolute;
     width: 1030px;
     height: 675px;
-    left: 440px;
+    left: 400px;
     top: 250px;
 }
 
-.twitchdrops {
+.KNOPOCHKI{
+    width: 100px;
+    height: 58px;
+    left: 510px;
+    top: 137px;
+    display: flex;
     position: absolute;
-    width: 234px;
-    height: 30px;
-    left: 574px;
-    top: 175px;
+    justify-content: space-around; 
+    align-items: center;
+    width: 45%;
+    padding: 15px; 
+    background-color: #2E334F;
+    border-radius: 100px; 
+    border: 4px solid #262626; 
+}
+
+.twitchdrops {
     font-family: 'Inter';
     font-style: italic;
     font-weight: 500;
-    font-size: 22px;
-    align-items: center;
+    font-size:19px;
     letter-spacing: 0.25em;
     cursor: pointer;
     color: whitesmoke;
-    border: 0px;
-    background: #2E334F;
-    font-variation-settings: 'slnt' 0;
-}
-
-.header .twitchdrops:hover {
     background-color: #2E334F;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.5s ease;
 }
 
+.twitchdrops:hover {
+    transform: scale(1.1);
+}
+    
 .donate {
-    position: absolute;
-    width: 268px;
-    height: 106px;
-    left: 1087px;
-    top: 137px;
     font-family: 'Inter';
     font-style: italic;
     font-weight: 500;
-    font-size: 38px;
-    align-items: center;
-    letter-spacing: 0.30em;
-    border: 4px solid #262626;
-    border-radius: 0px 53px 53px 0px;
-    font-variation-settings: 'slnt' 0;
-    background: linear-gradient(180deg, #2E334F 0%, #3C51C1 100%);
+    font-size:19px;
+    letter-spacing: 0.25em;
     cursor: pointer;
-    color: whitesmoke
+    color: whitesmoke;
+    background-color: #2E334F;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.donate:hover {
+    transform: scale(1.1);
 }
 
 .connectaccount {
-    position: absolute;
-    width: 224px;
-    height: 52px;
-    left: 849px;
-    top: 166px;
     font-family: 'Inter';
     font-style: italic;
-    font-weight: 446;
-    font-size: 20px;
-    align-items: center;
-    letter-spacing: 0.20em;
+    font-weight: 500;
+    font-size:19px;
+    letter-spacing: 0.25em;
     cursor: pointer;
-    border: 0px solid #262626;
     color: whitesmoke;
-    background: #2E334F;
+    background-color: #2E334F;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.connectaccount:hover {
+    transform: scale(1.1);
 }
 
 .footerinfo {
@@ -184,14 +166,74 @@
     height: 52px;
     left: 2500px;
     top: 100px;
-
 }
 
-h1{
+.donatik{
+    width: 50px;
+    height: 20px;
+    left: 690px;
+    top: 920px;
+    display: flex;
     position: absolute;
-    width: 224px;
-    height: 52px;
-    left: 2500px;
-    top: 100px;
+    justify-content: space-around; 
+    align-items: center;
+    width: 25%;
+    padding: 15px; 
+    background-color: #2E334F;
+    border-radius: 10px; 
+    border: 2px solid #262626; 
+}
+
+.textuik{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FF69B4;
+    font-size: .6rem;
+    margin-top: -15px;
+    width: 100px; 
+    left: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.kilkistdonata{
+    margin-top: 40px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+    font-size: 1.5rem;
+    font-weight: bold;
     color: white;
+    flex: 1;
+}
+
+.buttondonat{
+    border: none;
+    padding: 8px; 
+    font-size: 1.0rem;
+    border-radius: 7px; 
+    margin-top: 0px;
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    background-color: #8A2BE2;
+    position: absolute;
+    left: 255px;
+}
+
+.steaminventar{
+    border: none;
+    padding: 10px; 
+    font-size: 0.7rem;
+    border-radius: 7px; 
+    margin-top: 0px;
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    background-color: #8A2BE2;
+    position: absolute;
+    left: 365px;
 }
