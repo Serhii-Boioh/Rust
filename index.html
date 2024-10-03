@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>plagiat.rust</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- Style Flipdown -->
+    <link href="https://pbutcher.uk/flipdown/css/flipdown/flipdown.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" />
+    <!-- ALL MIN CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- File Normalization -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Import CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="fon"></div>
+    <a href="index.html" class="logo">
+        <img src="img/marque-inside.png" class="rustlogo" alt="Rust Logo">
+    </a>
+    <div class="account"></div>
+    <div class="fotocenter"></div>
+    <div class="rustlogo"></div>
+    <a href="index.html" class="aclog">
+        <img src="img/free-icon-phone-15944947.png" class="accountlogo" alt="Account Logo">
+    </a>
+    <div class="KNOPOCHKI">
+        <button class="twitchdrops">TWITCH DROPS</button>
+        <div class="donate">
+            <img src="img/free-icon-debit-card-7107429 (1).png" width="35" class="donfoto">DONATE FOR ME
+        </div>
+        <div class="connectaccount">
+            <p>CONNECT ACCOUNT</p>
+        </div>
+    </div>
+    <div class="bodyinfo"></div>
+    <div class="donatik">
+        <p class="textuik">Amount raised</p>
+        <p class="kilkistdonata">₴150.10</p>
+        <button class="buttondonat">DONATE<a href="/"></a></button>
+        <button class="steaminventar">CHARITY SKINS<a href="/"></a></button>
+        <!-- Таймер -->
+        <div class="count-down">
+            <h1>Countdown Timer</h1>
+            <div class="flipdown" id="flipdown"></div>
+        </div>
+    </div>
+    
+    <img src="img/td_33-website-header-3.png" class="cerfochechka" alt="Header Image">
+
+    
+
+    <footer>
+        <div class="foter"></div>
+    </footer>
+
+    <!-- Скрипти -->
+    <script src="https://pbutcher.uk/flipdown/js/flipdown/flipdown.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Unix timestamp (в секундах) для відліку
+            var toDayFromNow = (new Date("Dec 31, 2024 23:59:59").getTime() / 1000) + (3600 / 60 / 60 / 24) - 1;
+            // Налаштування FlipDown
+            var flipdown = new FlipDown(toDayFromNow)
+
+                // Запуск таймера
+                .start()
+                // Дії по закінченню таймера
+                .ifEnded(() => {
+                    document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+                    document.style.color = 'white';
+                });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,278 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: -11px;
+}
+
+.fon {
+    position: absolute;
+    width: 1920px;
+    height: 1920px;
+    left: -8px;
+    top: -8px;
+    background: url(img/fonrust.jpg);
+    background-attachment: fixed;
+}
+
+.bodyinfo {
+    position: absolute;
+    width: 1924px;
+    height: 1090px;
+    background: #050D22;
+    left: -12px;
+    top: 1500Px;
+}
+
+.foter {
+    position: absolute;
+    width: 1924px;
+    height: 1090px;
+    background: #000000;
+    left: -12px;
+    top: 2000Px;
+}
+
+.account {
+    box-sizing: border-box;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1710px;
+    top: 120px;
+    border: 3px solid #214848;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgba(95, 158, 160, 0);
+}
+
+.accountlogo {
+    width: 33px;
+    height: 33px;
+    left: 1709px;
+    top: 48px;
+    position: relative;
+
+}
+
+.logo {
+    background-color: #cd412b;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 160px;
+    top: 110px;
+    cursor: pointer;
+    background-image: url('margue-inside.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.rustlogo {
+    width: 72px;
+    height: 72px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+}
+
+.cerfochechka {
+    position: absolute;
+    width: 1030px;
+    height: 675px;
+    left: 400px;
+    top: 250px;
+}
+
+.KNOPOCHKI{
+    width: 100px;
+    height: 58px;
+    left: 510px;
+    top: 137px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around; 
+    align-items: center;
+    width: 45%;
+    padding: 15px; 
+    background-color: #2E334F;
+    border-radius: 100px; 
+    border: 4px solid #262626; 
+}
+
+.twitchdrops {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size:19px;
+    letter-spacing: 0.25em;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #2E334F;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.twitchdrops:hover {
+    transform: scale(1.1);
+}
+    
+.donate {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size:19px;
+    letter-spacing: 0.25em;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #2E334F;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.donate:hover {
+    transform: scale(1.1);
+}
+
+.connectaccount {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size:19px;
+    letter-spacing: 0.25em;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #2E334F;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.5s ease;
+}
+
+.connectaccount:hover {
+    transform: scale(1.1);
+}
+
+.footerinfo {
+    position: absolute;
+    width: 224px;
+    height: 52px;
+    left: 2500px;
+    top: 100px;
+}
+
+.donatik{
+    width: 50px;
+    height: 20px;
+    left: 690px;
+    top: 920px;
+    display: flex;
+    position: absolute;
+    justify-content: space-around; 
+    align-items: center;
+    width: 25%;
+    padding: 15px; 
+    background-color: #2E334F;
+    border-radius: 10px; 
+    border: 2px solid #262626; 
+}
+
+.textuik{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FF69B4;
+    font-size: .6rem;
+    margin-top: -15px;
+    width: 100px; 
+    left: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.kilkistdonata{
+    margin-top: 40px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    flex: 1;
+}
+
+.buttondonat{
+    border: none;
+    padding: 8px; 
+    font-size: 1.0rem;
+    border-radius: 7px; 
+    margin-top: 0px;
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    background-color: #8A2BE2;
+    position: absolute;
+    left: 255px;
+}
+
+.steaminventar{
+    border: none;
+    padding: 10px; 
+    font-size: 0.7rem;
+    border-radius: 7px; 
+    margin-top: 0px;
+    color: white;
+    font-family: 'Inter';
+    font-style: italic;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    background-color: #8A2BE2;
+    position: absolute;
+    left: 365px;
+}
+
+.count-down {
+    border: 2px solid white;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 15px;
+    
+    width: 550px;
+    color: white;
+    opacity: .8;
+    height: auto;
+    margin-left: -150px;
+    margin-top: 350px; /* Зменште відстань до верхньої частини */
+    padding: 20px;
+    text-align: center; /* Вирівнює текст по центру */
+}
+
+.count-down:hover{
+    box-shadow: 20px 20px 60px 5px #8A2BE2;
+    
+}
+
+.count-down .flipdown {
+    margin: auto;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 600px; /* Можна налаштувати під свій дизайн */
+    margin-top: 30px;
+}
+
+.count-down h1 {
+    font-weight: 400;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: black; /* Встановлює колір тексту */
+}
+
