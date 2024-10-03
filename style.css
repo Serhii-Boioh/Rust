@@ -1,6 +1,6 @@
 body {
     width: 1920px;
-    height: 4000px;
+    height: 1080px;
     left: 0px;
     top: -11px;
 }
@@ -18,19 +18,19 @@ body {
 .bodyinfo {
     position: absolute;
     width: 1924px;
-    height: 4000px;
+    height: 1090px;
     background: #050D22;
     left: -12px;
-    top: 1350Px;
+    top: 1500Px;
 }
 
 .foter {
     position: absolute;
     width: 1924px;
-    height: 4000px;
+    height: 1090px;
     background: #000000;
     left: -12px;
-    top: 4000Px;
+    top: 2000Px;
 }
 
 .account {
@@ -238,131 +238,41 @@ body {
     left: 365px;
 }
 
-
-.countdown-wrapper {
-	z-index: 1;
-	position: relative;
-	display: flex;
-	flex-direction: column;
+.count-down {
+    border: 2px solid white;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 15px;
+    
+    width: 550px;
+    color: white;
+    opacity: .8;
+    height: auto;
+    margin-left: -150px;
+    margin-top: 350px; /* Зменште відстань до верхньої частини */
+    padding: 20px;
+    text-align: center; /* Вирівнює текст по центру */
 }
 
-.title {
-	font-size: 60px;
-    position: absolute;
-    top: 870px;
-    left: 800px;
-    color:#fff;
+.count-down:hover{
+    box-shadow: 20px 20px 60px 5px #8A2BE2;
+    
 }
 
-.countdown {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.count-down .flipdown {
+    margin: auto;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 600px; /* Можна налаштувати під свій дизайн */
+    margin-top: 30px;
 }
 
-.time {
-    position: relative;
-    top: 1000px;
-    left: -50px;
-    color: #fff;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 30px;
+.count-down h1 {
+    font-weight: 400;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: black; /* Встановлює колір тексту */
 }
 
-.time h2 {
-	margin: 0 0 10px;
-	font-size: 48px;
-}
-
-.time small {
-	font-size: 26px;
-}
-
-@media (max-width: 500px) {
-	.title {
-		font-size: 35px;
-	}
-
-	.year {
-		display: none;
-	}
-
-	.countdown {
-		align-items: center;
-	}
-
-	.time {
-		margin: 10px;
-	}
-
-	.time h2 {
-		font-size: 32px;
-		margin: 0;
-	}
-
-	.time small {
-		font-size: 16px;
-	}
-}
-
-.textski0{
-    position: relative;
-    top: 1100px;
-    left: 780px;
-    color: #fff;
-    font-size: 2.75rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-}
-
-.textski1{
-    position: relative;
-    top: 1100px;
-    left: 620px;
-    color: #ababab;
-
-}
-
-.textski2{
-    position: relative;
-    top: 1150px;
-    left: 120px;
-    background-color: #9146ff;
-    border-radius: 4px;
-    margin-top: 10px;
-    padding: 5px 8px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
-}
-
-.dropbox{
-    position: relative;
-    top: 1150px;
-    left: 120px;
-    flex: 0 0 calc(50% - 30px);
-    display: flex;
-    flex-direction: column;
-    opacity: .7;
-    transform: scale(1);
-    transition: all .2s ease;
-    margin: 15px;
-}
-
-.dropbox2{
-    position: relative;
-    top: 1150px;
-    left: 1200px;
-    flex: 0 0 calc(50% - 30px);
-    display: flex;
-    flex-direction: column;
-    opacity: .7;
-    transform: scale(1);
-    transition: all .2s ease;
-}
