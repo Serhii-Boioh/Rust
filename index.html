@@ -5,8 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src=main.js.JavaScript”></script>
-    <title>plagiat.rust</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- Style Flipdown -->
+    <link href="https://pbutcher.uk/flipdown/css/flipdown/flipdown.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" />
+    <!-- ALL MIN CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- File Normalization -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Import CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>RUST</title>
+    <link rel="icon" type="img/rust.jpj" href="img/rust.jpj">
 </head>
 
 <body>
@@ -23,7 +38,7 @@
     <div class="KNOPOCHKI">
         <button class="twitchdrops">TWITCH DROPS</button>
         <div class="donate">
-            <img src="img/free-icon-debit-card-7107429 (1).png" width="35" class="donfoto" ;>DONATE FOR ME</p>
+            <img src="img/free-icon-debit-card-7107429 (1).png" width="35" class="donfoto">DONATE FOR ME
         </div>
         <div class="connectaccount">
             <p>CONNECT ACCOUNT</p>
@@ -31,77 +46,43 @@
     </div>
     <div class="bodyinfo"></div>
     <div class="donatik">
-        <p class="textuik">Amound raised</p>
+        <p class="textuik">Amount raised</p>
         <p class="kilkistdonata">₴150.10</p>
-        <button class="buttondonat">DONATE
-            <a href="/"></a></button>
-        <button class="steaminventar">CHARITY SKINS
-            <a href="/"></a></button>
+        <button class="buttondonat">DONATE<a href="/"></a></button>
+        <button class="steaminventar">CHARITY SKINS<a href="/"></a></button>
+        <!-- Таймер -->
+        <div class="count-down">
+            <h1>Countdown Timer</h1>
+            <div class="flipdown" id="flipdown"></div>
+        </div>
     </div>
+    
     <img src="img/td_33-website-header-3.png" class="cerfochechka" alt="Header Image">
 
-    <div class="countdown-wrapper">
-        <h1 class="title"> Starts in</h1>
-        <div class="countdown" id=countdown>
-            <div class="time">
-                <h2 id="days">00</h2>
-                <small>Days</small>
-            </div>
-            <div class="time">
-                <h2 id="hours">00</h2>
-                <small>Hours</small>
-            </div>
-            <div class="time">
-                <h2 id="minutes">00</h2>
-                <small>Minutes</small>
-            </div>
-            <div class="time">
-                <h2 id="seconds">00</h2>
-                <small>Seconds</small>
-            </div>
-        </div>
-    </div>
-    <div>
-        <h1 class="textski0">Store Items</h1>
-        <span class="textski1">"Items will be purchasable from Steam on the event start date. All profit proceeds go to
-            charity."</span>
-        <span class="textski2">These items will be account-bound</span>
-    </div>
-    <div class="drop-container">
-        <div class="drop-box">
-            <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="_blank"
-                class="drop-box-body"></a>
-            <div class="drop-box-footer">
-                <p class="drop-type">Vending Machine</p>
-            </div>
-        </div>
-        <div class="drop-box1"></div>
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="_blank"
-            class="drop-box-body1"></a>
-        <div class="drop-box-footer1">
-            <p class="drop-type1">Semi-Automatik Rifle</p>
-        </div>
-    </div>
-    <div class="drop-box2"></div>
-    <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="_blank"
-        class="drop-box-body2">
-        <img src="video/charitablerust_hoodie.gif" class="boxik2" alt="boxiwda">
-    </a>
-    <div class="drop-box-footer2">
-        <p class="drop-type2">hoodie</p>
-    </div>
-    </div>
-    <div class="drop-box3"></div>
-    <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="_blank"
-        class="drop-box-body3"></a>
-    <div class="drop-box-footer3">
-        <p class="drop-typ3e">Armored door</p>
-    </div>
-    </div>
-    </div>
+    
+
     <footer>
         <div class="foter"></div>
     </footer>
+
+    <!-- Скрипти -->
+    <script src="https://pbutcher.uk/flipdown/js/flipdown/flipdown.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Unix timestamp (в секундах) для відліку
+            var toDayFromNow = (new Date("Dec 31, 2024 23:59:59").getTime() / 1000) + (3600 / 60 / 60 / 24) - 1;
+            // Налаштування FlipDown
+            var flipdown = new FlipDown(toDayFromNow)
+
+                // Запуск таймера
+                .start()
+                // Дії по закінченню таймера
+                .ifEnded(() => {
+                    document.querySelector(".flipdown").innerHTML = `<h2>Timer is ended</h2>`;
+                    document.style.color = 'white';
+                });
+        });
+    </script>
 </body>
 
 </html>
